@@ -80,3 +80,28 @@ body {
     font-size: 18px;
     border: none;
 }
+
+.random-info > h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.subtext-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.subtext {
+    width: 200px;
+    font-size: 18px;
+}
+
+.sub-img {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 0 25px;
+}
