@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0;
 }
 
 .header {
@@ -29,5 +30,53 @@ body {
 
 .header-links > a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+.signup-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: left;
     color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.signup-text > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.signup-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.signup-image {
+    padding: 100px 100px;
+    margin: 32px;
+    background-color: gray;
+    flex-shrink: 0;
+}
+
+.signup-text > div > button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
 }
