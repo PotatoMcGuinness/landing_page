@@ -12,7 +12,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
@@ -21,6 +21,7 @@ body {
 
 .logo {
     font-size: 24px;
+    margin-right: auto;
 }
 
 .header-links {
@@ -70,6 +71,7 @@ body {
     margin: 32px 0 32px 32px;
     background-color: gray;
     flex-shrink: 0;
+    color: #e5e7eb;
 }
 
 .signup-text > div > button {
@@ -121,13 +123,56 @@ body {
     font-weight: 100;
     color: #1f2937;
     text-align: left;
-    width: 700px;
+    width: 750px;
     margin-bottom: 12px;
 }
 
 .quote-author {
-    width: 700px;
+    width: 750px;
     text-align: right;  
     font-weight: 800; 
     font-size: 18px; 
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 900px;
+}
+
+.action-left {
+    text-align: left;
+    margin: 32px 75px;
+}
+
+.action-left h3 {
+    margin: 0 0 8px 0;
+}
+
+.action-left p {
+    margin: 0;
+}
+
+.action-right {
+    display: flex;
+    align-items: center;
+}
+
+.action div button {
+    padding: 8px 24px;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #3882f6;
+    margin: 0 75px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16px;
 }
