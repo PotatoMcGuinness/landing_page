@@ -1,6 +1,35 @@
 * {
     box-sizing: border-box;
-    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url(assets/fonts/roboto-regular-webfont.woff2) format('woff2'),
+         url(assets/fonts/roboto-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url(assets/fonts/roboto-light-webfont.woff2) format('woff2'),
+         url(assets/fonts/roboto-light-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 800;
+    src: url(assets/fonts/roboto-bold-webfont.woff2) format('woff2'),
+         url(assets/fonts/roboto-bold-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: italic;
+    src: url(assets/fonts/roboto-lightitalic-webfont.woff2) format('woff2'),
+         url(assets/fonts/roboto-lightitalic-webfont.woff) format('woff');
 }
 
 body {
@@ -12,16 +41,15 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 16px;
+    padding: 16px 75px;
 }
 
 .logo {
     font-size: 24px;
-    margin-right: auto;
 }
 
 .header-links {
@@ -29,9 +57,13 @@ body {
     gap: 16px;
 }
 
-.header-links > a {
+.header-links a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
 }
 
 .signup {
@@ -119,8 +151,8 @@ body {
 
 .quote-text {
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
-    font-weight: 100;
     color: #1f2937;
     text-align: left;
     width: 750px;
